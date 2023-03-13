@@ -35,6 +35,7 @@
                 allSelected = true;
             }
         }
+        dispatch('change');
     }
 
 
