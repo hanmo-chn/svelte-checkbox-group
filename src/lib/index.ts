@@ -1,5 +1,5 @@
 import CheckBoxGroup from "./CheckBoxGroup.svelte";
-import GroupBox from "../../package/GroupBox.svelte";
+import GroupBox from "./GroupBox.svelte";
 import BooleanBits from "./BooleanBits";
 import type BitBoolean from "./bit-boolean";
 

@@ -1,13 +1,13 @@
 {
   "name": "@hanmotec/tsui-checkbox-group",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "dev": "vite dev",
-    "build:css": "node-sass src/lib/tsui-checkbox-group.scss -o src/lib --output-style compressed",
+    "build:css": "sass src/lib/tsui-checkbox-group.scss:src/lib/tsui-checkbox-group.css",
     "build": "npm run build:css && svelte-kit sync && svelte-package",
     "prepublishOnly": "echo 'Did you mean to publish `./package/`, instead of `./`?' && exit 1",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",

@@ -1,3 +1,6 @@
 /.idea/
 /src/lib/*.css
 /package-lock.json
+/.svelte-kit
+/node_modules
+/package
